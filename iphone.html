@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Rubik', sans-serif;
+
+    }
+    i{
+    font-size : 10px;
+    font-weight:700;
+}
+    .purple{
+    position: relative;
+    left: -32px;
+    width: 300px;
+    height: 41rem;
+    background: linear-gradient(360deg, rgba(190,63,254,1) 0%, rgba(151,58,253,1) 97%);
+    border-radius: 0px 0px 14rem 14rem;
+    }
+    .container{
+       position: relative;
+       top: -30rem;
+       right: -195px;
+        width: 300px;
+        height: 600px;
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: #f5f3f8;
+        border-radius: 20px;
+        border: solid 12px #ffffff;
+    }
+    .notch{
+     background-color: white;
+    position: absolute;
+    top: 0;
+    z-index: 71;
+    left: 50%;
+    transform: translate(-51%);
+    height: 36px;
+    width: 197px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+    
+    .background{
+    height: 102px;
+    position: absolute;
+    background: rgb(190,63,254);
+     background: linear-gradient(360deg, rgba(190,63,254,1) 0%, rgba(151,58,253,1) 97%);
+    top: 0px;
+    width: 339px;
+    left: 0px;
+    }
+   
+    .profile img{
+       
+     position: relative;
+    border-radius: 20px;
+    width: 30px;
+    margin: 10px;
+    bottom: -36px;
+    right: 8px;
+    }
+    .name{
+    position: relative;
+    top: -32px;
+    left: -54px;
+    text-align: center;
+    }
+    .name h3{
+        color: white;
+        font-weight: 700;
+    }
+    .name p{
+    position: relative;
+    top: -17px;
+
+    }
+   
+   
+   .leftmsg{
+    font-size: 16px;
+    background-color: #ebe3f3;
+    color: purple;
+    border-radius: 8px;
+    text-align: left;
+    position: relative;
+    top: 11px;
+    font-size: 15px;
+    width: 197px;
+   }
+   .dog{
+    display: flex;
+    justify-content: end;
+    gap: 7px;
+   }
+   .dog img{
+    width: 70px;
+    border-radius: 10px;
+    
+   }
+   .textmsg{
+    background-color: cadetblue;
+    border-radius: 10px;
+    width: 10rem;
+    height: 3rem;
+   }
+   .leftmsg{
+    font-size: 15px;
+   }
+  
+   
+   .pay{
+    display: flex;
+    width: 197px;
+    background: rgb(226,65,254);
+    background: linear-gradient(360deg, rgba(226,65,254,1) 0%, rgba(141,58,254,1) 97%);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .pay i{
+    font-size:20px;
+    color: var(--very-light-magenta);
+   }
+   
+   .heading{
+    position: relative;
+    right: -46rem;
+    top: -60rem;
+   }
+   .heading h1{
+    font-size: 50px;
+   }
+   .heading p{
+    line-height: 20px;
+    font-size: 17px;
+    color: #cbcacc;
+   }
+   .comment input{
+    width: 269px;
+    height: 39px;
+    border: solid;
+    border-radius: 21px;
+   }
+   .fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 17px;
+    position: relative;
+    bottom: -16px;
+    color: white;
+}
+.fa-angle-right{
+    color: black;
+}
+.pay i{
+    color: #e957fd;
+}
+.pay p{
+     color: white;
+}
+   
+   
+</style>
+
+<body>
+    <div class="purple"></div>
+ 
+    <div class="container">
+        <div class="head">
+            <div class="notch"></div>
+            <div class="background">
+                <div class="profile">
+                    <i class="fas fa-chevron-left"></i>
+                    <img src="images/avatar.jpg" alt="">
+                    <div class="name">
+                        <h3>Samuel Green</h3>
+                        <p>Available to walk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                    <div class="discussion">
+                        <div class="leftmsg">
+                            <p>that sounds great . I'd be happy with that</p>
+                        </div>
+                        <div class="discussion">
+                            <div class="leftmsg">
+                                <p>could you send over some pictures of your dog.please?</p>
+                            </div>
+                            <div class="dog">
+                                <img src="images/dog-image-1.jpg" alt="">
+                                <img src="images/dog-image-2.jpg" alt="">
+                                <img src="images/dog-image-3.jpg" alt="">
+                            </div>
+                            <div class="textmsg">
+                            <div class="rightmsg">
+                                <p>here are a few pictures.she 's a happy girl!</p>
+                            </div>
+                            <div class="textmsg">
+                            <div class="rightmsg">
+                                <p> Can you make it?</p>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="discussion">
+                        <div class="leftmsg">
+                            <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+                        </div>
+                        <div class="pay">
+                             <i class="far fa-circle"></i>
+                             <p>
+                            30 minute walk
+                             </p>
+                            <p style="color: aliceblue; font-weight: 800; font-size: 20px;" >$29</p>
+                        </div>
+                    </div>
+                    <div class="pay">
+                        <i class="far fa-circle"></i>
+                       <p> 1hour walk</p>
+                        <p style="color: aliceblue; font-weight: 800; font-size: 20px;">$49</p>
+                    </div>
+                        </div>
+                    <div class="comment">
+                    <form>
+                        <input type="text" placeholder="Type a message...">
+                        <i class="fas fa-angle-right"></i>
+                    </form>
+                    </div>
+                
+    </div>
+                <section>
+                    <div class="heading">
+                        <h1> Simple booking</h1>
+                        <p>Stay in touch with our dog walkers through the chat <br> interface. This makes it easy to
+                            discuss arrangements and <br>make bookings. Once the walk has been completed you <br> can rate
+                            your walker and book again all through the chat.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+</body>
+
+</html>
